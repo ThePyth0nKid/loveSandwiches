@@ -1,4 +1,14 @@
 # Python Google Sheets Sales Data Project
+## Introduction to SalesDataSyncer Project
+
+Welcome to the SalesDataSyncer project – a walkthrough project developed in collaboration with the Code Institute. This project is a learning endeavor, designed to deepen my understanding and proficiency in Python and fundamental coding concepts.
+
+As part of the Code Institute's hands-on approach, this project was coded side-by-side with their expert guidance. This method allowed me to engage directly with the material, applying new knowledge in real-time and reinforcing my coding skills through practical application.
+
+The purpose of SalesDataSyncer is not just to create a functioning Python script but to delve into the intricacies of software development. Throughout this journey, I've learned about various coding principles, including data handling with Google Sheets, implementing OAuth2 for secure authentication, and refining my skills in writing clean, efficient Python code.
+
+SalesDataSyncer serves as a testament to the learning process, showcasing how guided coding can effectively translate complex concepts into tangible skills. It's a project that mirrors the Code Institute's ethos of learning by doing, proving that the best way to understand coding is to code.
+
 
 ## Project Overview
 This Python project leverages the `gspread` module to interact with Google Sheets. It focuses on managing and analyzing sales data in a spreadsheet named "love_sandwiches". The script allows users to edit and analyze sales data through a simple command-line interface.
