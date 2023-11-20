@@ -72,12 +72,27 @@ Collects columns of data from sales worksheet, collecting the last 5 entries for
 ```python
 def get_last_5_entries_sales():
     sales = SHEET.worksheet("sales")
-
     columns = []
     for ind in range(1, 7):
         column = sales.col_values(ind)
         columns.append(column[-5:])
 
     return columns
+```
+
+### main()
+Run all program functions.
+
+```python
+def main():
+    data = get_sales_data()
+    sales_data = [int(num) for num in data]
+    update_worksheet(sales_data, "sales")
+    new_surplus_data = calculate_surplus_data(sales_data)
+    update_worksheet(new_surplus_data, "surplus")
+
+
+print("Welcome to Love Sandwiches Data Automation")
+main()
 ```
 
